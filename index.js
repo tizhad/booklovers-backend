@@ -4,6 +4,7 @@ const corsMiddleWare = require("cors");
 const { PORT } = require("./config/constants");
 const authRouter = require("./routers/auth");
 const authMiddleWare = require("./auth/middleware");
+const bookRouter = require("./routers/books");
 
 const app = express();
 
@@ -151,6 +152,7 @@ app.post("/authorized_post_request", authMiddleWare, (req, res) => {
 });
 
 app.use("/", authRouter);
+app.use("/books", bookRouter);
 //search endpoint
 // app.use("/search", searchRouter);
 

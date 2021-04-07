@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
   book.init(
     {
       uniqueId: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false,
       },
       title: {

@@ -9,16 +9,18 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       uniqueId: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
+        unique: true,
+        allowNull: false,
       },
       title: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
       },
       imageURL: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
       },
       description: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
       },
       createdAt: {
         allowNull: false,
