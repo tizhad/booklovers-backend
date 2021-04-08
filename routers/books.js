@@ -5,6 +5,7 @@ const authMiddleware = require("../auth/middleware");
 const router = new Router();
 
 router.post("/", authMiddleware, async (req, res) => {
+  console.log(req.user);
   try {
     const newBook = await Book.create({
       uniqueId: req.body.uniqueId,
@@ -12,6 +13,7 @@ router.post("/", authMiddleware, async (req, res) => {
       imageURL: req.body.imageURL,
       description: req.body.description,
     });
+
     console.log("create book", newBook.dataValues);
     res.status(201).send({ message: "Book Created", newBook });
   } catch (error) {

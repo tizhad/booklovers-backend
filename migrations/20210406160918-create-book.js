@@ -8,13 +8,19 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      uniqueId: {
+      googleID: {
         type: Sequelize.STRING,
         unique: true,
         allowNull: false,
       },
       title: {
         type: Sequelize.TEXT,
+      },
+      author: {
+        type: Sequelize.TEXT,
+      },
+      rate: {
+        type: Sequelize.INTEGER,
       },
       imageURL: {
         type: Sequelize.TEXT,

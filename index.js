@@ -5,6 +5,8 @@ const { PORT } = require("./config/constants");
 const authRouter = require("./routers/auth");
 const authMiddleWare = require("./auth/middleware");
 const bookRouter = require("./routers/books");
+const userBooksRouter = require("./routers/userBooks");
+const searchRouter = require("./routers/search");
 
 const app = express();
 
@@ -153,8 +155,8 @@ app.post("/authorized_post_request", authMiddleWare, (req, res) => {
 
 app.use("/", authRouter);
 app.use("/books", bookRouter);
-//search endpoint
-// app.use("/search", searchRouter);
+app.use("/userBooks", userBooksRouter);
+app.use("/search", searchRouter);
 
 // Listen for connections on specified port (default is port 4000)
 

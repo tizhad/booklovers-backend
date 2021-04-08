@@ -17,9 +17,11 @@ module.exports = (sequelize, DataTypes) => {
     {
       status: {
         type: DataTypes.STRING,
+        defaultValue: "to-read",
       },
       progress: {
         type: DataTypes.INTEGER,
+        defaultValue: 0,
       },
     },
     {
