@@ -40,20 +40,22 @@ router.get("/", authMiddleware, async (req, res) => {
       if (filteredBooks.length > 0) {
         return {
           googleID: googleBook.id,
-          imageURL: googleBook.volumeInfo.imageLinks.smallThumbnail,
           title: googleBook.volumeInfo.title,
-          description: googleBook.volumeInfo.description.substring(0, 200),
+          author: googleBook.volumeInfo.authors,
           rate: 1,
+          imageURL: googleBook.volumeInfo.imageLinks.smallThumbnail,
+          description: googleBook.volumeInfo.description.substring(0, 200),
           status: filteredBooks[0].status,
           progress: filteredBooks[0].progress,
         };
       } else {
         return {
           googleID: googleBook.id,
-          imageURL: googleBook.volumeInfo.imageLinks.smallThumbnail,
           title: googleBook.volumeInfo.title,
-          description: googleBook.volumeInfo.description.substring(0, 200),
+          author: googleBook.volumeInfo.authors,
           rate: 1,
+          imageURL: googleBook.volumeInfo.imageLinks.smallThumbnail,
+          description: googleBook.volumeInfo.description.substring(0, 200),
         };
       }
     });
