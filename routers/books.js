@@ -1,26 +1,50 @@
 const { Router } = require("express");
 const Book = require("../models").book;
+const UserBook = require("../models").userBook;
 const authMiddleware = require("../auth/middleware");
 
 const router = new Router();
 
 router.post("/", authMiddleware, async (req, res) => {
-  console.log(req.user);
+  const bookGoogleId = req.body.googleID;
+  const userId = req.body.userId;
+  const status = req.body.status;
+  const progress = req.body.progress;
+  console.log(userId);
+
   try {
-    const newBook = await Book.create({
-      uniqueId: req.body.uniqueId,
-      title: req.body.title,
-      imageURL: req.body.imageURL,
-      description: req.body.description,
+    // search for the book
+    // used let because I want to change its value later if I don't find the book in the table
+    let book = await Book.findOne({
+      where: {
+        googleID: bookGoogleId,
+      },
     });
 
-    console.log("create book", newBook.dataValues);
-    res.status(201).send({ message: "Book Created", newBook });
+    if (book === null) {
+      // then we'll create the book
+      book = await Book.create({
+        googleID: req.body.googleID,
+        title: req.body.title,
+        author: req.body.author,
+        imageURL: req.body.imageURL,
+        description: req.body.description,
+      });
+      const bookInUserBook = await UserBook.create({
+        userId: userId,
+        bookId: book.id,
+        status: "reading",
+        progress: 0,
+      });
+      console.log("Book in userBook table", bookInUserBook);
+    }
+
+    console.log(book);
+
+    return res.status(201).send({ message: "new book added" });
   } catch (error) {
     console.log(error);
-    return res
-      .status(500)
-      .send({ message: "you have this book in your book list." });
+    return res.status(500).send({ message: "Some thing went wrong" });
   }
 });
 
