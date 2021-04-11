@@ -1,0 +1,209 @@
+http -v :4000/userBooks userId=1 bookId= "XfFvDwAAQBAJ" status="currently reading" progress=50
+http -v POST :4000/books googleID="hBSGDwAAQBAJ"
+http -v POST :4000/books     googleID: req.body.googleID,
+        title: req.body.title,
+        author: req.user.author,
+        imageURL: req.user.imageURL,
+        description: req.user.description,
+
+
+for recieving JWT token:
+http -v :4000/login email="tina@test.com" password="tina"
+
+ http -v :4000/books\?q=devops userId=1 Authorization:"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTYxNzk3NDYyOCwiZXhwIjoxNjE3OTgxODI4fQ.MP_TBe0tzPMaKrZmiMGJLnRWEtcKEevgY9vjUktgGMI"
+
+
+http -v POST :4000/books\?q=devops googleID="hBSGDwAAQBAJ" Authorization:"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTYxNzk1ODk5MywiZXhwIjoxNjE3OTY2MTkzfQ.YR7BBfaOSdx3keBhaBkR_FjcqeEKUn7shW0JixK1JXo"
+
+
+ search endpoit -> request to google API -> filter, sort and anything -> get users book -> 
+
+
+
+
+ book= [{
+     volumeId:" ",
+     imageURL: " ",
+     title: " ",
+     description: " ",
+     rate: ,
+     status: "",
+     progress: " ",
+ }]
+
+
+
+ https://www.googleapis.com/books/v1/volumes?q=${searchTerm}
+
+
+
+
+
+
+
+
+
+
+ const newBook = await Book.create({
+    //   googleID: req.body.googleID,
+    //   title: req.body.title,
+    //   author: req.body.author,
+    //   rate: req.body.rate,
+    //   imageURL: req.body.imageURL,
+    //   description: req.body.description,
+    // });
+
+http -v POST :4000/books googleID="new-googel-id" title="title" author="author" rate=1 imageURL="http://books.google.com/books/content?id=hBSGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" description="description" userId=3 status="reading" progress=40 Authorization:"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTYxNzk3NDYyOCwiZXhwIjoxNjE3OTgxODI4fQ.MP_TBe0tzPMaKrZmiMGJLnRWEtcKEevgY9vjUktgGMI"
+
+
+    recievedBook:
+    received book [
+  book {
+    dataValues: {
+      id: 2,
+      googleID: 'hBSGDwAAQBAJ',
+      title: 'DevOps - A Business Perspective',
+      author: 'Oleg Skrynnik',
+      rate: null,
+      imageURL: 'http://books.google.com/books/content?id=hBSGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
+      description: 'his book explains the management aspects of DevOps for those who are professionally engaged in information and technology management.',
+      createdAt: 2021-04-08T16:06:37.037Z,
+      updatedAt: 2021-04-08T16:06:37.037Z
+    },
+    _previousDataValues: {
+      id: 2,
+      googleID: 'hBSGDwAAQBAJ',
+      title: 'DevOps - A Business Perspective',
+      author: 'Oleg Skrynnik',
+      rate: null,
+      imageURL: 'http://books.google.com/books/content?id=hBSGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api',
+      description: 'his book explains the management aspects of DevOps for those who are professionally engaged in information and technology management.',
+      createdAt: 2021-04-08T16:06:37.037Z,
+      updatedAt: 2021-04-08T16:06:37.037Z
+    },
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: false,
+      _schema: null,
+      _schemaDelimiter: '',
+      raw: true,
+      attributes: [Array]
+    },
+    isNewRecord: false
+  }
+]
+
+
+
+search on decops:
+
+[
+    {
+        "author": [
+            "Jeffery D. Smith"
+        ],
+        "description": "Operations Anti-Patterns, DevOps Solutions shows how to implement DevOps techniques in the kind of imperfect environments most developers work in. Part technology tutorial, part reference manual, and ",
+        "googleID": "g3kFEAAAQBAJ",
+        "imageURL": "http://books.google.com/books/content?id=g3kFEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "rate": 1,
+        "title": "Operations Anti-Patterns, DevOps Solutions"
+    },
+    {
+        "author": [
+            "Oleg Skrynnik"
+        ],
+        "description": "This book explains the management aspects of DevOps for those who are professionally engaged in information and technology management. It is written for IT specialists, IT managers and IT executives. ",
+        "googleID": "hBSGDwAAQBAJ",
+        "imageURL": "http://books.google.com/books/content?id=hBSGDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "progress": 4,
+        "rate": 1,
+        "status": "reading",
+        "title": "DevOps - A Business Perspective"
+    },
+    {
+        "author": [
+            "Aruna Ravichandran",
+            "Kieran Taylor",
+            "Peter Waterhouse"
+        ],
+        "description": "Learn to design, implement, measure, and improve DevOps programs that are tailored to your organization. This concise guide assists leaders who are accountable for the rapid development of high-qualit",
+        "googleID": "VNhCDwAAQBAJ",
+        "imageURL": "http://books.google.com/books/content?id=VNhCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "rate": 1,
+        "title": "DevOps for Digital Leaders"
+    },
+    {
+        "author": [
+            "Len Bass",
+            "Ingo Weber",
+            "Liming Zhu"
+        ],
+        "description": "The First Complete Guide to DevOps for Software Architects DevOps promises to accelerate the release of new software features and improve monitoring of systems in production, but its crucial implicati",
+        "googleID": "fcwkCQAAQBAJ",
+        "imageURL": "http://books.google.com/books/content?id=fcwkCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "rate": 1,
+        "title": "DevOps"
+    },
+    {
+        "author": [
+            "Gene Kim",
+            "Kevin Behr",
+            "George Spafford"
+        ],
+        "description": "***Over a half-million sold! The sequel, The Unicorn Project, is coming Nov 26*** “Every person involved in a failed IT project should be forced to read this book.”—TIM O’REILLY, Founder & CEO of O’Re",
+        "googleID": "H6x-DwAAQBAJ",
+        "imageURL": "http://books.google.com/books/content?id=H6x-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "progress": 80,
+        "rate": 1,
+        "status": "to-read",
+        "title": "The Phoenix Project"
+    },
+    {
+        "author": [
+            "Gene Kim",
+            "Jez Humble",
+            "Patrick Debois",
+            "John Willis"
+        ],
+        "description": "Increase profitability, elevate work culture, and exceed productivity goals through DevOps practices. More than ever, the effective management of technology is critical for business competitiveness. F",
+        "googleID": "ui8hDgAAQBAJ",
+        "imageURL": "http://books.google.com/books/content?id=ui8hDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "rate": 1,
+        "title": "The DevOps Handbook:"
+    },
+    {
+        "author": [
+            "Jennifer Davis",
+            "Ryn Daniels"
+        ],
+        "description": "Some companies think that adopting devops means bringing in specialists or a host of new tools. With this practical guide, you’ll learn why devops is a professional and cultural movement that calls fo",
+        "googleID": "nO1FDAAAQBAJ",
+        "imageURL": "http://books.google.com/books/content?id=nO1FDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "rate": 1,
+        "title": "Effective DevOps"
+    },
+    {
+        "author": [
+            "Ashish Raj"
+        ],
+        "description": "Learn about Azure DevOps services to successfully apply DevOps strategies KEY FEATURES ● Share knowledge on DevOps implementation and use of Azure DevOps services. ● Learn about Azure artifacts, depen",
+        "googleID": "6hMlEAAAQBAJ",
+        "imageURL": "http://books.google.com/books/content?id=6hMlEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "rate": 1,
+        "title": "Demystifying Azure DevOps Services"
+    }
+]
+
+
+
+    
+    if(availableInUserBooks === null){
+      const newBookInUserBooks = await UserBook.create({
+      userId: userId,
+      bookId: book.id,
+      status: status,
+      progress: progress,
+    });
+    console.log("Book in userBook table", newBookInUserBooks);
+    console.log("This is user id", userId);
+    }
