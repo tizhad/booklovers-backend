@@ -41,7 +41,7 @@ module.exports = {
           userId: 4,
           bookId: 2,
           status: "to-read",
-          progress: 30,
+          progress: null,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
