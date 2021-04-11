@@ -1,16 +1,16 @@
 const { Router } = require("express");
 const Book = require("../models").book;
 const UserBook = require("../models").userBook;
-const authMiddleware = require("../auth/middleware");
+const authMiddleWare = require("../auth/middleware");
 
 const router = new Router();
 
-router.post("/", authMiddleware, async (req, res) => {
+router.post("/", authMiddleWare, async (req, res) => {
   const bookGoogleId = req.body.googleID;
-  const userId = req.body.userId;
+  const userId = req.user.id;
   const status = req.body.status;
   const progress = req.body.progress;
-  console.log(userId);
+  console.log("This is user id", userId);
 
   try {
     // search for the book
@@ -26,22 +26,35 @@ router.post("/", authMiddleware, async (req, res) => {
       book = await Book.create({
         googleID: req.body.googleID,
         title: req.body.title,
-        author: req.body.author,
+        author: req.body.authors,
         imageURL: req.body.imageURL,
         description: req.body.description,
+        rate: req.body.rate,
       });
-      const bookInUserBook = await UserBook.create({
-        userId: userId,
-        bookId: book.id,
-        status: "reading",
-        progress: 0,
-      });
-      console.log("Book in userBook table", bookInUserBook);
     }
 
-    console.log(book);
+    let userBook = await UserBook.findOne({
+      where: {
+        userId: userId,
+        bookId: book.id,
+      },
+    });
 
-    return res.status(201).send({ message: "new book added" });
+    if (userBook === null) {
+      userBook = await UserBook.create({
+        userId: userId,
+        bookId: book.id,
+        status: status,
+      });
+    } else {
+      userBook.status = req.body.status;
+      userBook.progress = req.body.progress;
+      await userBook.save();
+    }
+
+    console.log(userBook);
+
+    return res.status(201).send(userBook);
   } catch (error) {
     console.log(error);
     return res.status(500).send({ message: "Some thing went wrong" });
