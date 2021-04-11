@@ -2,11 +2,11 @@ const { Router } = require("express");
 const axios = require("axios").default;
 const UserBook = require("../models").userBook;
 const Book = require("../models").book;
-const authMiddleware = require("../auth/middleware");
+const authMiddleWare = require("../auth/middleware");
 
 const router = new Router();
 
-router.get("/", authMiddleware, async (req, res) => {
+router.get("/", authMiddleWare, async (req, res) => {
   const query = req.query.q;
   const userId = req.user.id;
 
@@ -41,7 +41,9 @@ router.get("/", authMiddleware, async (req, res) => {
         return {
           googleID: googleBook.id,
           title: googleBook.volumeInfo.title,
-          author: googleBook.volumeInfo.authors,
+          authors: googleBook.volumeInfo.hasOwnProperty("authors")
+            ? googleBook.volumeInfo.authors.join(", ")
+            : "Unknown authors",
           rate: 1,
           imageURL: googleBook.volumeInfo.imageLinks.smallThumbnail,
           description: googleBook.volumeInfo.description.substring(0, 200),
@@ -52,10 +54,14 @@ router.get("/", authMiddleware, async (req, res) => {
         return {
           googleID: googleBook.id,
           title: googleBook.volumeInfo.title,
-          author: googleBook.volumeInfo.authors,
+          authors: googleBook.volumeInfo.hasOwnProperty("authors")
+            ? googleBook.volumeInfo.authors.join(", ")
+            : "Unknown authors",
           rate: 1,
-          imageURL: googleBook.volumeInfo.imageLinks.smallThumbnail,
-          description: googleBook.volumeInfo.description.substring(0, 200),
+          imageURL: googleBook.volumeInfo.hasOwnProperty("imageLinks")
+            ? googleBook.volumeInfo.imageLinks.smallThumbnail
+            : "https://via.placeholder.com/150",
+          description: googleBook.volumeInfo.description,
         };
       }
     });
