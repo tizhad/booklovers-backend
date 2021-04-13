@@ -1,0 +1,742 @@
+GET /books/v1/volumes?q=AWS HTTP/1.1
+User-Agent: HTTPie/2.4.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Host: www.googleapis.com
+
+
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Sun, 11 Apr 2021 21:51:09 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+
+{
+  "kind": "books#volumes",
+  "totalItems": 527,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "HdPXDwAAQBAJ",
+      "etag": "Ev8xGE6wXmM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HdPXDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Programming AWS Lambda",
+        "subtitle": "Build and Deploy Serverless Applications with Java",
+        "authors": [
+          "John Chapin",
+          "Mike Roberts"
+        ],
+        "publisher": "O'Reilly Media",
+        "publishedDate": "2020-03-18",
+        "description": "Serverless revolutionizes the way organizations build and deploy software. With this hands-on guide, Java engineers will learn how to use their experience in the new world of serverless computing. You’ll discover how this cloud computing execution model can drastically decrease the complexity in developing and operating applications while reducing costs and time to market. Engineering leaders John Chapin and Mike Roberts guide you through the process of developing these applications using AWS Lambda, Amazon’s event-driven, serverless computing platform. You’ll learn how to prepare the development environment, program Lambda functions, and deploy and operate your serverless software. The chapters include exercises to help you through each aspect of the process. Get an introduction to serverless, functions as a service, and AWS Lambda Learn how to deploy working Lambda functions to the cloud Program Lambda functions and learn how the Lambda platform integrates with other AWS services Build and package Java-based Lambda code and dependencies Create serverless applications by building a serverless API and data pipeline Test your serverless applications using automated techniques Apply advanced techniques to build production-ready applications Understand both the gotchas and new opportunities of serverless architecture",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781492041023"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1492041025"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 278,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=HdPXDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=HdPXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=HdPXDwAAQBAJ&pg=PA9&dq=AWS&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.nl/books?id=HdPXDwAAQBAJ&dq=AWS&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Programming_AWS_Lambda.html?hl=&id=HdPXDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=HdPXDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eAWS\u003c/b\u003e has a vast number of customers, spread all around the planet. Massive \u003cbr\u003e\nenterpri‐ses, governments, startups, individuals, and everyone in between use \u003cbr\u003e\n\u003cb\u003eAWS\u003c/b\u003e. Many of the internet services you use are probably hosted on \u003cb\u003eAWS\u003c/b\u003e. \u003cb\u003eAWS\u003c/b\u003e is \u003cbr\u003e\nnot&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-3jtDwAAQBAJ",
+      "etag": "kUl26IEY/xs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-3jtDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Migrating to AWS: A Manager's Guide",
+        "subtitle": "How to Foster Agility, Reduce Costs, and Bring a Competitive Edge to Your Business",
+        "authors": [
+          "Jeff Armstrong"
+        ],
+        "publisher": "O'Reilly Media",
+        "publishedDate": "2020-06-26",
+        "description": "Bring agility, cost savings, and a competitive edge to your business by migrating your IT infrastructure to AWS. With this practical book, executive and senior leadership and engineering and IT managers will examine the advantages, disadvantages, and common pitfalls when moving your company’s operations to the cloud. Author Jeff Armstrong brings years of practical hands-on experience helping dozens of enterprises make this corporate change. You’ll explore real-world examples from many organizations that have made—or attempted to make—this wide-ranging transition. Once you read this guide, you’ll be better prepared to evaluate your migration objectively before, during, and after the process in order to ensure success. Learn the benefits and drawbacks of migrating to AWS, including the risks to your business and technology Begin the process by discovering the applications and servers in your environment Examine the value of AWS migration when building your business case Address your operational readiness before you migrate Define your AWS account structure and cloud governance controls Create your migration plan in waves of servers and applications Refactor applications that will benefit from using more cloud native resources",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781492074212"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1492074217"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 272,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-3jtDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-3jtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=-3jtDwAAQBAJ&pg=PA2&dq=AWS&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.nl/books?id=-3jtDwAAQBAJ&dq=AWS&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Migrating_to_AWS_A_Manager_s_Guide.html?hl=&id=-3jtDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-3jtDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The reason that compute is used rather than instance, virtual machine, or server \u003cbr\u003e\nis because the processing power in \u003cb\u003eAWS\u003c/b\u003e is decoupled from storage and net‐\u003cbr\u003e\nworking. Also, compute in \u003cb\u003eAWS\u003c/b\u003e might refer to a serverless technology where you\u003cbr\u003e\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8QBIAQAAIAAJ",
+      "etag": "RPBJnC/pNjY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8QBIAQAAIAAJ",
+      "volumeInfo": {
+        "title": "List of Available AWS Technical Reports",
+        "subtitle": "Indexes",
+        "authors": [
+          "United States. Air Weather Service"
+        ],
+        "publishedDate": "1968",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "STANFORD:36105211290247"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Weather forecasting"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8QBIAQAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8QBIAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=8QBIAQAAIAAJ&pg=PP3&dq=AWS&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=8QBIAQAAIAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8QBIAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=8QBIAQAAIAAJ&rdid=book-8QBIAQAAIAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.nl/books/download/List_of_Available_AWS_Technical_Reports.epub?id=8QBIAQAAIAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8QBIAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "DEPARTMENT OF THE AIR FORCE Headquarters Air Weather Service ( MAC ) \u003cbr\u003e\nScott Air Force Base , Illinois 62225 \u003cb\u003eAWS\u003c/b\u003e PAMPHLET 0-18 / 1 Extract i 20 May \u003cbr\u003e\n1970 Indexes LIST OF AVAILABLE \u003cb\u003eAWS\u003c/b\u003e TECHNICAL REPORTS This pamphlet \u003cbr\u003e\nis&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7A80AQAAMAAJ",
+      "etag": "+6LKGx5fDXg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7A80AQAAMAAJ",
+      "volumeInfo": {
+        "title": "Howard A. Hanson Dam (HHD) Additional Water Storage (AWS) Project",
+        "subtitle": "Environmental Impact Statement",
+        "publishedDate": "1998",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NWU:35556031029168"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7A80AQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7A80AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=7A80AQAAMAAJ&pg=SA2-PA29&dq=AWS&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=7A80AQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7A80AQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=7A80AQAAMAAJ&rdid=book-7A80AQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.nl/books/download/Howard_A_Hanson_Dam_HHD_Additional_Water.epub?id=7A80AQAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7A80AQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This statement is reinforced by statements regarding actions that will not occur \u003cbr\u003e\nunless the HHD \u003cb\u003eAWS\u003c/b\u003e is implemented , such as gravel nourishment , actions that \u003cbr\u003e\nare being considered under the Ecosystem Restoration Study Reading part of the\u003cbr\u003e\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QHM2SGOQcCIC",
+      "etag": "4lHRaRY1cro",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QHM2SGOQcCIC",
+      "volumeInfo": {
+        "title": "Questions and Answers Relating to AWS and SCA Survey Job Descriptions",
+        "publishedDate": "1990",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCR:31210024939652"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 41,
+        "printType": "BOOK",
+        "categories": [
+          "Government publications"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QHM2SGOQcCIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QHM2SGOQcCIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=QHM2SGOQcCIC&pg=PA21&dq=AWS&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=QHM2SGOQcCIC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QHM2SGOQcCIC"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=QHM2SGOQcCIC&rdid=book-QHM2SGOQcCIC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.nl/books/download/Questions_and_Answers_Relating_to_AWS_an.epub?id=QHM2SGOQcCIC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QHM2SGOQcCIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "How well do the \u003cb\u003eAWS\u003c/b\u003e job titles &quot; Computer Programmer &quot; and &quot; Computer \u003cbr\u003e\nSystems Analyst &quot; relate to job titles used in surveyed establishments ? 7a . There \u003cbr\u003e\nare important similarities and differences between the \u003cb\u003eAWS\u003c/b\u003e titles ( Computer&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JUBBAQAAMAAJ",
+      "etag": "aoc9hSHXCwE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JUBBAQAAMAAJ",
+      "volumeInfo": {
+        "title": "Tijdschrift voor het binnenlandsch bestuur",
+        "authors": [
+          "Paul Adriaan Daum",
+          "Ph. S. de Laat de Kanter",
+          "Catharinus Johannes Hasselman",
+          "J. van Aalst",
+          "F. K. Overduyn"
+        ],
+        "publishedDate": "1895",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "CORNELL:31924081582417"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Java (Indonesia)"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=JUBBAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=JUBBAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "nl",
+        "previewLink": "http://books.google.nl/books?id=JUBBAQAAMAAJ&pg=PA69&dq=AWS&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=JUBBAQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=JUBBAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=JUBBAQAAMAAJ&rdid=book-JUBBAQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.nl/books/download/Tijdschrift_voor_het_binnenlandsch_bestu.epub?id=JUBBAQAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=JUBBAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "PENGOK PADJEG BOEMI . Tahoen 18 .... Deso .. Haranné wong kang njonggo \u003cbr\u003e\npadjeg Nommer pijagem ..... Kahhé pa djeg : \u003cb\u003eAWS AWS AWS AWS AWS AWS\u003c/b\u003e \u003cbr\u003e\n\u003cb\u003eAWS AWS AWS AWS AWS AWS AWS AWS AWS AWS AWS AWS\u003c/b\u003e Achterzijde ."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "lWUhAAAAMAAJ",
+      "etag": "R+zzLSUV0Ec",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lWUhAAAAMAAJ",
+      "volumeInfo": {
+        "title": "The A.W.S. Bibliographies",
+        "subtitle": "Supplement",
+        "authors": [
+          "American Welding Society"
+        ],
+        "publishedDate": "1961",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015021119527"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Welding"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.0.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lWUhAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lWUhAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=lWUhAAAAMAAJ&pg=PP3&dq=AWS&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.nl/books?id=lWUhAAAAMAAJ&dq=AWS&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_A_W_S_Bibliographies.html?hl=&id=lWUhAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lWUhAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "DQI_DQAAQBAJ",
+      "etag": "JGRZ/NidWD8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DQI_DQAAQBAJ",
+      "volumeInfo": {
+        "title": "AWS Certified Solutions Architect Official Study Guide",
+        "subtitle": "Associate Exam",
+        "authors": [
+          "Joe Baron",
+          "Hisham Baz",
+          "Tim Bixler",
+          "Biff Gaut",
+          "Kevin E. Kelly",
+          "Sean Senior",
+          "John Stamper"
+        ],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2016-09-28",
+        "description": "Validate your AWS skills. This is your opportunity to take the next step in your career by expanding and validating your skills on the AWS cloud. AWS has been the frontrunner in cloud computing products and services, and the AWS Certified Solutions Architect Official Study Guide for the Associate exam will get you fully prepared through expert content, and real-world knowledge, key exam essentials, chapter review questions, access to Sybex’s interactive online learning environment, and much more. This official study guide, written by AWS experts, covers exam concepts, and provides key review on exam topics, including: Mapping Multi-Tier Architectures to AWS Services, such as web/app servers, firewalls, caches and load balancers Understanding managed RDBMS through AWS RDS (MySQL, Oracle, SQL Server, Postgres, Aurora) Understanding Loose Coupling and Stateless Systems Comparing Different Consistency Models in AWS Services Understanding how AWS CloudFront can make your application more cost efficient, faster and secure Implementing Route tables, Access Control Lists, Firewalls, NAT, and DNS Applying AWS Security Features along with traditional Information and Application Security Using Compute, Networking, Storage, and Database AWS services Architecting Large Scale Distributed Systems Understanding of Elasticity and Scalability Concepts Understanding of Network Technologies Relating to AWS Deploying and Managing Services with tools such as CloudFormation, OpsWorks and Elastic Beanstalk. Learn from the AWS subject-matter experts, review with proven study tools, and apply real-world scenarios. If you are looking to take the AWS Certified Solutions Architect Associate exam, this guide is what you need for comprehensive content and robust study tools that will help you gain the edge on exam day and throughout your career.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781119139553"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1119139554"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 504,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.7.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DQI_DQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DQI_DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=DQI_DQAAQBAJ&printsec=frontcover&dq=AWS&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.nl/books?id=DQI_DQAAQBAJ&dq=AWS&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/AWS_Certified_Solutions_Architect_Offici.html?hl=&id=DQI_DQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/AWS_Certified_Solutions_Architect_Offici-sample-pdf.acsm?id=DQI_DQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DQI_DQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Validate your AWS skills. This is your opportunity to take the next step in your career by expanding and validating your skills on the AWS cloud."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3zQ7zQEACAAJ",
+      "etag": "gPwmsirPhuw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3zQ7zQEACAAJ",
+      "volumeInfo": {
+        "title": "Leveraging Cloud-Based Machine Learning on AWS: Real-World Applications",
+        "publishedDate": "2019",
+        "description": "The cost and efficiency of the cloud puts machine learning and artificial intelligence (AI) within the grasp of enterprises big and small. Help your organization tap into their power with Amazon Web Services. This course is a practical approach to leveraging AWS for AI-based applications across a variety of industries, including healthcare, finance, law enforcement, manufacturing, and education. Instructor David Linthicum introduces SageMaker, Amazon's AI platform, and presents a variety of use cases that demonstrate current best practices, tools, and techniques. He shows how to build and train machine learning models with SageMaker, and integrate them into real-world apps. David also dispels some concerns around AI, such as cost and security, by showcasing real AWS solutions.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OCLC:1137403946"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=3zQ7zQEACAAJ&dq=AWS&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.nl/books?id=3zQ7zQEACAAJ&dq=AWS&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Leveraging_Cloud_Based_Machine_Learning.html?hl=&id=3zQ7zQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3zQ7zQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The cost and efficiency of the cloud puts machine learning and artificial intelligence (AI) within the grasp of enterprises big and small. Help your organization tap into their power with Amazon Web Services."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9uuhDwAAQBAJ",
+      "etag": "4n2Q/YI/mq8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9uuhDwAAQBAJ",
+      "volumeInfo": {
+        "title": "IBM Spectrum Virtualize for Public Cloud on AWS Implementation Guide",
+        "authors": [
+          "Vasfi Gucer",
+          "Jordan Fincher",
+          "Hemanand Gadgil",
+          "Jimmy John",
+          "Jackson Shea",
+          "Thomas Vogel",
+          "Kendall C Williams",
+          "IBM Redbooks"
+        ],
+        "publisher": "IBM Redbooks",
+        "publishedDate": "2020-02-12",
+        "description": "IBM® Spectrum Virtualize is a key member of the IBM SpectrumTM Storage portfolio. It is a highly flexible storage solution that enables rapid deployment of block storage services for new and traditional workloads, whether on-premises, off-premises, or a combination of both. The initial release of IBM Spectrum VirtualizeTM for Public Cloud is now available on Amazon Web Services (AWS). This IBM RedpaperTM Redbooks publication gives a broad understanding of the IBM Spectrum Virtualize for Public Cloud on AWS architecture, and provides planning and implementation details of the common use cases for this new product. This publication helps storage and networking administrators plan, implement, install, modify, and configure the IBM Spectrum Virtualize for Public Cloud on AWS offering. It also provides a detailed description of troubleshooting tips.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780738457840"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0738457841"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 118,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9uuhDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9uuhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=9uuhDwAAQBAJ&printsec=frontcover&dq=AWS&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=9uuhDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=9uuhDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=9uuhDwAAQBAJ&rdid=book-9uuhDwAAQBAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9uuhDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "IBM® Spectrum Virtualize is a key member of the IBM SpectrumTM Storage portfolio."
+      }
+    }
+  ]
+}

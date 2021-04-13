@@ -1,0 +1,953 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 509,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "g3kFEAAAQBAJ",
+      "etag": "XOW66OmSl4I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/g3kFEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Operations Anti-Patterns, DevOps Solutions",
+        "authors": [
+          "Jeffery D. Smith"
+        ],
+        "publisher": "Manning Publications",
+        "publishedDate": "2020-11-24",
+        "description": "Operations Anti-Patterns, DevOps Solutions shows how to implement DevOps techniques in the kind of imperfect environments most developers work in. Part technology tutorial, part reference manual, and part psychology handbook, this practical guide shows you realistic ways to bring DevOps to your team when you don’t have the flexibility to make sweeping changes in organizational structure. Summary Operations Anti-Patterns, DevOps Solutions shows how to implement DevOps techniques in the kind of imperfect environments most developers work in. Part technology tutorial, part reference manual, and part psychology handbook, this practical guide shows you realistic ways to bring DevOps to your team when you don't have the flexibility to make sweeping changes in organizational structure. Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications. About the technology To some extent, all organizations—even yours—suffer from poor development practices, garbled communications, and outdated legacy systems. The good news is DevOps can help you improve your processes. First, however, you'll need to recognize the core issues holding you back. This book empowers you to deliver DevOps with limited resources while navigating the office politics and entrenched mindsets that are all too common in actual workplaces. About the book Operations Anti-Patterns, DevOps Solutions offers clear steps for transforming development and communication. Using jargon-free language, this book describes incremental techniques that pay off immediately. Streamline your workflow, manage unplanned time, and build operational metrics. Whatever your issues, this book holds the keys to organizational success. What's inside Turn failure into opportunity Drive change through culture Break down knowledge silos Settle middle management turf wars About the reader For team leaders and managers. About the author Jeffery D. Smith has been in the technology industry for over 15 years. He has managed DevOps transformations at the ad-tech firm Centro and the online ordering platform Grubhub. Table of Contents 1 The DevOps ingredients 2 The paternalist syndrome 3 Operational blindness 4 Data instead of information 5 Quality as a condiment 6 Alert fatigue 7 The empty toolbox 8 Off-hour deployments 9 Wasting a perfectly good incident 10 Information hoarding: Only Brent knows 11 Culture by decree 12 Too many yardsticks",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781617296987"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1617296988"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=g3kFEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=g3kFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=g3kFEAAAQBAJ&pg=PA4&dq=devops&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.nl/books?id=g3kFEAAAQBAJ&dq=devops&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Operations_Anti_Patterns_DevOps_Solution.html?hl=&id=g3kFEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=g3kFEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Product marketers are looking to cash in on the \u003cb\u003eDevOps\u003c/b\u003e craze. Simple products \u003cbr\u003e\nlike metrics and monitoring get rebranded into “\u003cb\u003eDevOps\u003c/b\u003e dashboards,” further \u003cbr\u003e\ndiluting the meaning of the word. With the market pulling the term “\u003cb\u003eDevOps\u003c/b\u003e” in&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "N2ORDwAAQBAJ",
+      "etag": "6Lt8RqSbHT8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/N2ORDwAAQBAJ",
+      "volumeInfo": {
+        "title": "DevOps Handboek",
+        "authors": [
+          "Oleg Skrynnik"
+        ],
+        "publisher": "Van Haren",
+        "publishedDate": "2019-04-09",
+        "description": "Dit boek legt de managementaspecten van DevOps uit voor degenen die zich professioneel bezighouden met informatie- en technologiemanagement. Het is geschreven voor IT-specialisten, IT-managers en IT-executives. Het toont DevOps niet als een fenomeen dat geassocieerd wordt met nieuwe automatiseringstools, programmeertechnieken of -technologieën en het verschilt van andere boeken door het gestructureerde verhaal (misschien is het overmatig gestructureerd) en door de poging om het fenomeen DevOps volledig te dekken op zowel een basis- als een fundamenteel niveau. Door die benadering wordt de lezer zich bewust van het nieuwe onderwerp en helpt het boek de fundering de bouwen, de basis. De lezer leert over de oorsprong van DevOps, de onvermijdelijkheid van zijn opkomst, de belangrijkste voorwaarden ervan en hoe die in de praktijk tot uiting komen, over de praktijk zelf en de principes waarop die is gebaseerd. In dit boek staat de stof voor de EXIN DevOps Foundation certificering. Dit examen test het begrip van (1) de basisconcepten van DevOps, (2) hoe deze aan elkaar gerelateerd zijn, en (3) de waarde van DevOps voor de business. EXIN DevOps Foundation is het eerste niveau van het EXIN DevOps certificeringsprogramma. De EXIN DevOps Professional certificering test de kennis van de DevOps praktijk en van hoe teams te integreren. De EXIN DevOps Master certificering gaat over het bevorderen van organisatieverandering en over het toeleiden naar continu leveren en verbeteren.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789401804370"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9401804370"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 144,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=N2ORDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=N2ORDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "nl",
+        "previewLink": "http://books.google.nl/books?id=N2ORDwAAQBAJ&pg=PA25&dq=devops&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=N2ORDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=N2ORDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 42.14,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 42.14,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=N2ORDwAAQBAJ&rdid=book-N2ORDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 42140000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 42140000,
+              "currencyCode": "EUR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/DevOps_Handboek-sample-pdf.acsm?id=N2ORDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=N2ORDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "De &#39;10+ Deploys per Day&#39;-presentatie wordt momenteel beschouwd als het \u003cbr\u003e\nstartpunt van de \u003cb\u003eDevOps\u003c/b\u003e-beweging. DevOpsDays is een extreem populaire \u003cbr\u003e\ngebeurtenis in het leven van de \u003cb\u003eDevOps\u003c/b\u003e-gemeenschap, die verspreid is over \u003cbr\u003e\nvele landen."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "g8t2DwAAQBAJ",
+      "etag": "oN0fT1O3m+I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/g8t2DwAAQBAJ",
+      "volumeInfo": {
+        "title": "DevOps Professional Courseware",
+        "authors": [
+          "Finbarr Callan"
+        ],
+        "publisher": "Van Haren",
+        "publishedDate": "2018-05-21",
+        "description": "Besides the DevOps Professional Courseware (ISBN: 978 94 018 313 7) publication you are advised to obtain the publication The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations (ISBN: 978 19 427 8800 3).The word DevOps is a contraction of ‘Development’ and ‘Operations’. DevOps is a set of best practices that emphasize the collaboration and communication of IT-professionals (developers, operators, and support staff) in the lifecycle of applications and services, leading to:• Continuous Integration: merging all developed working copies to a shared mainline several times a day• Continuous Deployment: release continuously or as often as possible• Continuous Feedback: seek feedback from stakeholders during all lifecycle stages The DevOps practices covered in this certification are derived from the Three Ways:- The First Way is to enable the work to move fast from left to right, from Development to Operations to the customer.- The Second Way is to enable feedback to go fast from right to left, from all stakeholders back into the value stream.- The Third Way is to enable learning by creating a high-trust culture of experimentation and risk-taking. Moreover, the crucial subjects of security in all stages, and maintaining compliance during change are covered.The certification has been developed in cooperation with experts in the DevOps work field.Recommended per knowledge: Pre-knowledge of Agile, Lean and/or IT Service Management, for instance through the EXIN Agile Scrum Foundation exam, LITA Lean IT Foundation exam or EXIN IT Service Management Foundation based on ISO/IEC 20000 exam, is recommended.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789401803144"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9401803145"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 172,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=g8t2DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=g8t2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "nl",
+        "previewLink": "http://books.google.nl/books?id=g8t2DwAAQBAJ&pg=PT15&dq=devops&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=g8t2DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=g8t2DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 88.63,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 88.63,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=g8t2DwAAQBAJ&rdid=book-g8t2DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 88630000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 88630000,
+              "currencyCode": "EUR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/DevOps_Professional_Courseware-sample-pdf.acsm?id=g8t2DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=g8t2DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "EXIN \u003cb\u003eDevOps\u003c/b\u003e Professional (DEVOPSP.EN) Scope \u003cb\u003eDevOps\u003c/b\u003e is best known in the \u003cbr\u003e\nfield of software services, but its principles are applicable in all contexts where \u003cbr\u003e\nfast delivery of reliable products and services is relevant. \u003cb\u003eDevOps\u003c/b\u003e contributes to \u003cbr\u003e\nthe&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hBSGDwAAQBAJ",
+      "etag": "aFrLWC0BUIY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hBSGDwAAQBAJ",
+      "volumeInfo": {
+        "title": "DevOps - A Business Perspective",
+        "authors": [
+          "Oleg Skrynnik"
+        ],
+        "publisher": "Van Haren",
+        "description": "This book explains the management aspects of DevOps for those who are professionally engaged in information and technology management. It is written for IT specialists, IT managers and IT executives. It does not show DevOps as a phenomenon associated with new automation tools, programming techniques or technologies; It differs from other books by the structural nature of the narrative (perhaps, excessively structured) approach and by the attempt to cover fully the phenomenon of DevOps at a basic, fundamental level. By this approach, this book not only creates awareness of the new subject area but is also helps building the basics. The reader learns about the origins of DevOps, the inevitability of its emergence, the key prerequisites and their reflection in practices, about the practices themselves and the principles on which they are based. This book is the core literature of the EXIN DevOps Foundation certification. This exam tests the understanding of basic DevOps concepts and how they relate to each other, as well as the value of DevOps for the business. EXIN DevOps Foundation is the first level of the EXIN DevOps certification program. The EXIN DevOps Professional certification tests the knowledge of DevOps practices and how to integrate teams. The EXIN DevOps Master certification is about promoting organizational change and leading the way towards continuous delivery and improvement.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789401803748"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9401803749"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 120,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hBSGDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hBSGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=hBSGDwAAQBAJ&printsec=frontcover&dq=devops&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=hBSGDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hBSGDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 36.24,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 36.24,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=hBSGDwAAQBAJ&rdid=book-hBSGDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 36240000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 36240000,
+              "currencyCode": "EUR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/DevOps_A_Business_Perspective-sample-epub.acsm?id=hBSGDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/DevOps_A_Business_Perspective-sample-pdf.acsm?id=hBSGDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hBSGDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book explains the management aspects of DevOps for those who are professionally engaged in information and technology management."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VNhCDwAAQBAJ",
+      "etag": "qvCp74vrU9s",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VNhCDwAAQBAJ",
+      "volumeInfo": {
+        "title": "DevOps for Digital Leaders",
+        "subtitle": "Reignite Business with a Modern DevOps-Enabled Software Factory",
+        "authors": [
+          "Aruna Ravichandran",
+          "Kieran Taylor",
+          "Peter Waterhouse"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2016-11-09",
+        "description": "Learn to design, implement, measure, and improve DevOps programs that are tailored to your organization. This concise guide assists leaders who are accountable for the rapid development of high-quality software applications. In DevOps for Digital Leaders, deep collective experience on both sides of the dev–ops divide informs the global thought leadership and penetrating insights of the authors, all three of whom are cross-portfolio DevOps leaders at CA Technologies. Aruna Ravichandran, Kieran Taylor, and Peter Waterhouse analyze the organizational benefits, costs, freedoms, and constraints of DevOps. They chart the coordinated strategy of organizational change, metrics, lean thinking, and investment that an enterprise must undertake to realize the full potential of DevOps and reach the sweet spot where accelerating code deployments drive increasing customer satisfaction, revenue, and profitability. Digital leaders are charged to bridge the dev–ops disconnect if their organizations are to survive and flourish in a business world increasingly differentiated by the degree to which dynamic application software development harmonizes with operational resilience and reliability. This short book applies the DevOps perspective to the competitive challenge, faced by every high-performance IT organization today, of integrating and automating open source, cloud, and enterprise tools, processes, and techniques across the software development life cycle from requirements to release. What You Will Learn: Remove dependencies and constraints so that parallel practices can accelerate the development of defect-free software Automate continuous delivery across the software life cycle to eliminate release bottlenecks, manual labor waste, and technical debt accumulation Generate virtualized production-style testing of applications through real-time behavioral analytics Adopt agile practices so operations teams can support developer productivity with automated feedback, streamline infrastructure monitoring, spot and resolve operations issues before they impact production, and improve customer experience Identify the DevOps metrics appropriate to your organization and integrate DevOps with your existing best practices and investment Who This Book Is For: IT leaders in large companies and government agencies who have any level of responsibility for the rapid development of high-quality software applications. The secondary readership is members of development and operations teams, security professionals, and service managers.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484218426"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1484218426"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 173,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VNhCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VNhCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=VNhCDwAAQBAJ&printsec=frontcover&dq=devops&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=VNhCDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VNhCDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=VNhCDwAAQBAJ&rdid=book-VNhCDwAAQBAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/DevOps_for_Digital_Leaders-sample-epub.acsm?id=VNhCDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/DevOps_for_Digital_Leaders-sample-pdf.acsm?id=VNhCDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VNhCDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Learn to design, implement, measure, and improve DevOps programs that are tailored to your organization. This concise guide assists leaders who are accountable for the rapid development of high-quality software applications."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "fcwkCQAAQBAJ",
+      "etag": "qjapA4M+6lg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/fcwkCQAAQBAJ",
+      "volumeInfo": {
+        "title": "DevOps",
+        "subtitle": "A Software Architect's Perspective",
+        "authors": [
+          "Len Bass",
+          "Ingo Weber",
+          "Liming Zhu"
+        ],
+        "publisher": "Addison-Wesley Professional",
+        "publishedDate": "2015-05-08",
+        "description": "The First Complete Guide to DevOps for Software Architects DevOps promises to accelerate the release of new software features and improve monitoring of systems in production, but its crucial implications for software architects and architecture are often ignored. In DevOps: A Software Architect’s Perspective, three leading architects address these issues head-on. The authors review decisions software architects must make in order to achieve DevOps’ goals and clarify how other DevOps participants are likely to impact the architect’s work. They also provide the organizational, technical, and operational context needed to deploy DevOps more efficiently, and review DevOps’ impact on each development phase. The authors address cross-cutting concerns that link multiple functions, offering practical insights into compliance, performance, reliability, repeatability, and security. This guide demonstrates the authors’ ideas in action with three real-world case studies: datacenter replication for business continuity, management of a continuous deployment pipeline, and migration to a microservice architecture. Comprehensive coverage includes • Why DevOps can require major changes in both system architecture and IT roles • How virtualization and the cloud can enable DevOps practices • Integrating operations and its service lifecycle into DevOps • Designing new systems to work well with DevOps practices • Integrating DevOps with agile methods and TDD • Handling failure detection, upgrade planning, and other key issues • Managing consistency issues arising from DevOps’ independent deployment models • Integrating security controls, roles, and audits into DevOps • Preparing a business plan for DevOps adoption, rollout, and measurement",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780134049878"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "013404987X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=fcwkCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=fcwkCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=fcwkCQAAQBAJ&printsec=frontcover&dq=devops&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=fcwkCQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=fcwkCQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 18.52,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 12.96,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=fcwkCQAAQBAJ&rdid=book-fcwkCQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 18520000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 12960000,
+              "currencyCode": "EUR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/DevOps-sample-epub.acsm?id=fcwkCQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/DevOps-sample-pdf.acsm?id=fcwkCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=fcwkCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This guide demonstrates the authors’ ideas in action with three real-world case studies: datacenter replication for business continuity, management of a continuous deployment pipeline, and migration to a microservice architecture."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "H6x-DwAAQBAJ",
+      "etag": "GkBH2t+WpuY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/H6x-DwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Phoenix Project",
+        "subtitle": "A Novel about IT, DevOps, and Helping Your Business Win",
+        "authors": [
+          "Gene Kim",
+          "Kevin Behr",
+          "George Spafford"
+        ],
+        "publisher": "IT Revolution",
+        "publishedDate": "2018-02-06",
+        "description": "***Over a half-million sold! The sequel, The Unicorn Project, is coming Nov 26*** “Every person involved in a failed IT project should be forced to read this book.”—TIM O’REILLY, Founder & CEO of O’Reilly Media “The Phoenix Project is a must read for business and IT executives who are struggling with the growing complexity of IT.”—JIM WHITEHURST, President and CEO, Red Hat, Inc. Five years after this sleeper hit took on the world of IT and flipped it on it's head, the 5th Anniversary Edition of The Phoenix Project continues to guide IT in the DevOps revolution. In this newly updated and expanded edition of the bestselling The Phoenix Project, co-author Gene Kim includes a new afterword and a deeper delve into the Three Ways as described in The DevOps Handbook. Bill, an IT manager at Parts Unlimited, has been tasked with taking on a project critical to the future of the business, code named Phoenix Project. But the project is massively over budget and behind schedule. The CEO demands Bill must fix the mess in ninety days or else Bill's entire department will be outsourced. With the help of a prospective board member and his mysterious philosophy of The Three Ways, Bill starts to see that IT work has more in common with a manufacturing plant work than he ever imagined. With the clock ticking, Bill must organize work flow streamline interdepartmental communications, and effectively serve the other business functions at Parts Unlimited. In a fast-paced and entertaining style, three luminaries of the DevOps movement deliver a story that anyone who works in IT will recognize. Readers will not only learn how to improve their own IT organizations, they'll never view IT the same way again. “This book is a gripping read that captures brilliantly the dilemmas that face companies which depend on IT, and offers real-world solutions.”—JEZ HUMBLE, Co-author of Continuous Delivery, Lean Enterprise, Accelerate, and The DevOps Handbook ———— “I’m delighted at how The Phoenix Project has reshaped so many conversations in technology. My goal in writing The Unicorn Project was to explore and reveal the necessary but invisible structures required to make developers (and all engineers) productive, and reveal the devastating effects of technical debt and complexity. I hope this book can create common ground for technology and business leaders to leave the past behind, and co-create a better future together.”—Gene Kim, November 2019",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781942788300"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1942788304"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 432,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.4.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=H6x-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=H6x-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=H6x-DwAAQBAJ&printsec=frontcover&dq=devops&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=H6x-DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=H6x-DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 11.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 11.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=H6x-DwAAQBAJ&rdid=book-H6x-DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 11990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 11990000,
+              "currencyCode": "EUR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/The_Phoenix_Project-sample-epub.acsm?id=H6x-DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/The_Phoenix_Project-sample-pdf.acsm?id=H6x-DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=H6x-DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "And available now, the Wall Street Journal Bestselling sequel The Unicorn Project*** “Every person involved in a failed IT project should be forced to read this book.”—TIM O&#39;REILLY, Founder &amp; CEO of O&#39;Reilly Media “The Phoenix ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ui8hDgAAQBAJ",
+      "etag": "owvbEaZE8Rc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ui8hDgAAQBAJ",
+      "volumeInfo": {
+        "title": "The DevOps Handbook:",
+        "subtitle": "How to Create World-Class Agility, Reliability, and Security in Technology Organizations",
+        "authors": [
+          "Gene Kim",
+          "Jez Humble",
+          "Patrick Debois",
+          "John Willis"
+        ],
+        "publisher": "IT Revolution",
+        "publishedDate": "2016-10-06",
+        "description": "Increase profitability, elevate work culture, and exceed productivity goals through DevOps practices. More than ever, the effective management of technology is critical for business competitiveness. For decades, technology leaders have struggled to balance agility, reliability, and security. The consequences of failure have never been greater―whether it's the healthcare.gov debacle, cardholder data breaches, or missing the boat with Big Data in the cloud. And yet, high performers using DevOps principles, such as Google, Amazon, Facebook, Etsy, and Netflix, are routinely and reliably deploying code into production hundreds, or even thousands, of times per day. Following in the footsteps of The Phoenix Project, The DevOps Handbook shows leaders how to replicate these incredible outcomes, by showing how to integrate Product Management, Development, QA, IT Operations, and Information Security to elevate your company and win in the marketplace.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781942788072"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "194278807X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 480,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.6.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ui8hDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ui8hDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=ui8hDgAAQBAJ&printsec=frontcover&dq=devops&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ui8hDgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ui8hDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 23.06,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 23.06,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ui8hDgAAQBAJ&rdid=book-ui8hDgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 23060000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 23060000,
+              "currencyCode": "EUR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/The_DevOps_Handbook-sample-epub.acsm?id=ui8hDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/The_DevOps_Handbook-sample-pdf.acsm?id=ui8hDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ui8hDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Following in the footsteps of The Phoenix Project, The DevOps Handbook shows leaders how to replicate these incredible outcomes, by showing how to integrate Product Management, Development, QA, IT Operations, and Information Security to ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nO1FDAAAQBAJ",
+      "etag": "GKC0kLwCrYA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nO1FDAAAQBAJ",
+      "volumeInfo": {
+        "title": "Effective DevOps",
+        "subtitle": "Building a Culture of Collaboration, Affinity, and Tooling at Scale",
+        "authors": [
+          "Jennifer Davis",
+          "Ryn Daniels"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2016-05-30",
+        "description": "Some companies think that adopting devops means bringing in specialists or a host of new tools. With this practical guide, you’ll learn why devops is a professional and cultural movement that calls for change from inside your organization. Authors Ryn Daniels and Jennifer Davis provide several approaches for improving collaboration within teams, creating affinity among teams, promoting efficient tool usage in your company, and scaling up what works throughout your organization’s inflection points. Devops stresses iterative efforts to break down information silos, monitor relationships, and repair misunderstandings that arise between and within teams in your organization. By applying the actionable strategies in this book, you can make sustainable changes in your environment regardless of your level within your organization. Explore the foundations of devops and learn the four pillars of effective devops Encourage collaboration to help individuals work together and build durable and long-lasting relationships Create affinity among teams while balancing differing goals or metrics Accelerate cultural direction by selecting tools and workflows that complement your organization Troubleshoot common problems and misunderstandings that can arise throughout the organizational lifecycle Learn from case studies from organizations and individuals to help inform your own devops journey",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781491926420"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1491926422"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 410,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.6.7.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nO1FDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nO1FDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=nO1FDAAAQBAJ&pg=PT448&dq=devops&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=nO1FDAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nO1FDAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 29.43,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 20.6,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=nO1FDAAAQBAJ&rdid=book-nO1FDAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 29430000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 20600000,
+              "currencyCode": "EUR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nO1FDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "with diverse teams, A Diverse Team Can&#39;t Collaborate as Effectively \u003cbr\u003e\nmisconceptions (\u003cb\u003edevops\u003c/b\u003e), Common \u003cb\u003eDevops\u003c/b\u003e Misconceptions-\u003cb\u003eDevops\u003c/b\u003e Is a Fad \u003cbr\u003e\nand value of tools, \u003cb\u003eDevops\u003c/b\u003e Is All About the Tools as only involving developers \u003cbr\u003e\nand system&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "6hMlEAAAQBAJ",
+      "etag": "e1xsbo53e+M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6hMlEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Demystifying Azure DevOps Services",
+        "subtitle": "A Guide to Architect, Deploy, and Administer DevOps Using Microsoft Azure DevOps Services (English Edition)",
+        "authors": [
+          "Ashish Raj"
+        ],
+        "publisher": "BPB Publications",
+        "publishedDate": "2021-03-22",
+        "description": "Learn about Azure DevOps services to successfully apply DevOps strategies KEY FEATURES ● Share knowledge on DevOps implementation and use of Azure DevOps services. ● Learn about Azure artifacts, dependency management, and CI/CD pipeline management. ● Manage third-party integration, Agile planning, and application lifecycle management. DESCRIPTION This book offers readers the best DevOps practices and explains how to implement various services of Azure DevOps to ensure efficiency, effectiveness, and better management of the entire software development lifecycle. This book explains each component of Azure DevOps services, their pricing models, and a quick tutorial on how to proceed with its usage. Backed with numerous examples, this book helps you implement Agile planning using Azure Boards, maintain code versioning using Azure Repos, and manage CI/CD using Azure Pipelines. You will learn how to administer the DevOps process such as managing packages using the most popular Azure Artifacts and how to run Test Plans using Azure Test Plans. You will also learn how to integrate with third-party systems. Finally, you will learn about marketplaces of extensions and how to develop your own extensions. WHAT YOU WILL LEARN ● Learn DevOps culture, practices, and habits. ● Learn to manage version control of the source code within Azure DevOps Services. ● Learn how to administer Azure DevOps services for an enterprise application lifecycle management system. ● Learn Azure DevOps services and features. WHO THIS BOOK IS FOR This book is for anyone who wishes to use or who are using Azure DevOps services, including Infrastructure engineers, Software engineers, Architects, Testers, Managers, or Product Owners. TABLE OF CONTENTS 1. Introduction to Azure DevOps 2. Azure DevOps Organization 3. Azure DevOps Project 4. Azure Board 5. Azure Repos 6. Azure Pipelines 7. Azure Artifacts 8. Azure Test Plans 9. Extension Marketplace",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789389898682"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9389898684"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 348,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6hMlEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6hMlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.nl/books?id=6hMlEAAAQBAJ&pg=SA1-PA20&dq=devops&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=6hMlEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=6hMlEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.18,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.18,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=6hMlEAAAQBAJ&rdid=book-6hMlEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9180000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9180000,
+              "currencyCode": "EUR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/Demystifying_Azure_DevOps_Services-sample-epub.acsm?id=6hMlEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.nl/books/download/Demystifying_Azure_DevOps_Services-sample-pdf.acsm?id=6hMlEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6hMlEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The fact about \u003cb\u003eDevOps\u003c/b\u003e as a culture always implies that any tool does not get you \u003cbr\u003e\ninto \u003cb\u003eDevOps\u003c/b\u003e just because you are using it or have it your environment. If you are \u003cbr\u003e\nfollowing our discussion on \u003cb\u003eDevOps\u003c/b\u003e as a culture, then it must have been clear to\u003cbr\u003e\n&nbsp;..."
+      }
+    }
+  ]
+}

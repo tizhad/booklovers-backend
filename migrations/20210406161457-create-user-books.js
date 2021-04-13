@@ -9,6 +9,7 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       userId: {
+        allowNull: false,
         type: Sequelize.INTEGER,
         references: {
           model: "users",
@@ -18,6 +19,7 @@ module.exports = {
         onDelete: "CASCADE",
       },
       bookId: {
+        allowNull: false,
         type: Sequelize.INTEGER,
         references: {
           model: "books",
@@ -27,7 +29,9 @@ module.exports = {
         onDelete: "CASCADE",
       },
       status: {
-        type: Sequelize.STRING,
+        type: Sequelize.ENUM,
+        values: ["read", "reading", "to-read"],
+        defaultValue: "to-read",
       },
       progress: {
         type: Sequelize.INTEGER,

@@ -17,9 +17,21 @@ module.exports = (sequelize, DataTypes) => {
   }
   book.init(
     {
+      googleID: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
       title: {
         type: DataTypes.STRING,
         allowNull: false,
+      },
+      author: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      rate: {
+        type: DataTypes.FLOAT,
+        allowNull: true,
       },
       imageURL: {
         type: DataTypes.STRING,
