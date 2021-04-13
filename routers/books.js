@@ -10,7 +10,6 @@ router.post("/", authMiddleWare, async (req, res) => {
   const userId = req.user.id;
   const status = req.body.status;
   const progress = req.body.progress;
-  console.log("This is user id", userId);
 
   try {
     // search for the book
@@ -51,8 +50,6 @@ router.post("/", authMiddleWare, async (req, res) => {
       userBook.progress = req.body.progress;
       await userBook.save();
     }
-
-    console.log(userBook);
 
     return res.status(201).send(userBook);
   } catch (error) {

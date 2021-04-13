@@ -46,7 +46,7 @@ router.get("/", authMiddleWare, async (req, res) => {
             : "Unknown authors",
           rate: 1,
           imageURL: googleBook.volumeInfo.imageLinks.smallThumbnail,
-          description: googleBook.volumeInfo.description.substring(0, 200),
+          description: googleBook.volumeInfo.description,
           status: filteredBooks[0].status,
           progress: filteredBooks[0].progress,
         };
@@ -65,7 +65,7 @@ router.get("/", authMiddleWare, async (req, res) => {
         };
       }
     });
-
+    
     res.status(201).send(searchResult);
   } catch (error) {
     console.log(error);

@@ -7,7 +7,6 @@ const authMiddleWare = require("./auth/middleware");
 const bookRouter = require("./routers/books");
 const userBooksRouter = require("./routers/userBooks");
 const searchRouter = require("./routers/search");
-
 const app = express();
 
 /**

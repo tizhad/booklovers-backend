@@ -7,17 +7,39 @@ const authMiddleware = require("../auth/middleware");
 const router = new Router();
 
 router.get("/", authMiddleware, async (req, res) => {
-  console.log(req.user);
+  const userId = req.user.id;
   try {
     const userBooks = await UserBook.findAll({
-      attributes: ["userId", "bookId", "status", "progress"],
+      attributes: ["status", "progress"],
+      where: {
+        userId: userId,
+      },
+      include: {
+        model: Book,
+        attributes: [
+          "googleID",
+          "title",
+          "author",
+          "rate",
+          "imageURL",
+          "description",
+        ],
+      },
     });
 
-    console.log("userBooks", userBooks);
-    res.status(201).send({ message: "book fetched", userBooks });
+    const response = userBooks.map((item) => {
+      let newItem = {
+        ...item.dataValues.book.dataValues,
+        progress: item.progress,
+        status: item.status,
+      };
+      return newItem;
+    });
+
+    res.status(201).send(response);
   } catch (error) {
     console.log(error);
-    return res.status(500).send({ message: "yechizi hast" });
+    return res.status(500).send({ message: "SomeThing went wrong" });
   }
 });
 
