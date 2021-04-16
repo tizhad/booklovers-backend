@@ -14,6 +14,7 @@ router.get("/", authMiddleWare, async (req, res) => {
     const URL = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
     const response = await axios.get(URL);
     const googleResponse = response.data.items;
+    console.log("googleResponse", googleResponse);
     const googleEnBooks = googleResponse.filter((item) => {
       if (item.volumeInfo.language == "en") {
         return true;
@@ -60,12 +61,12 @@ router.get("/", authMiddleWare, async (req, res) => {
           rate: 1,
           imageURL: googleBook.volumeInfo.hasOwnProperty("imageLinks")
             ? googleBook.volumeInfo.imageLinks.smallThumbnail
-            : "https://via.placeholder.com/150",
+            : "https://via.placeholder.com/150/45526c?Text=booklovers.com",
           description: googleBook.volumeInfo.description,
         };
       }
     });
-    
+
     res.status(201).send(searchResult);
   } catch (error) {
     console.log(error);
