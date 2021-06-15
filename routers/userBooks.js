@@ -19,15 +19,14 @@ router.get("/", authMiddleware, async (req, res) => {
         attributes: [
           "googleID",
           "title",
+          "categories",
           "author",
           "rate",
           "imageURL",
           "description",
-          "categories",
         ],
       },
     });
-
     const response = userBooks.map((item) => {
       let newItem = {
         ...item.dataValues.book.dataValues,
@@ -36,8 +35,7 @@ router.get("/", authMiddleware, async (req, res) => {
       };
       return newItem;
     });
-
-    res.status(201).send(response);
+    res.status(200).send(response);
   } catch (error) {
     console.log(error);
     return res.status(500).send({ message: "SomeThing went wrong" });

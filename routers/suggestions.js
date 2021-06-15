@@ -7,21 +7,35 @@ const authMiddleWare = require("../auth/middleware");
 const router = new Router();
 
 router.get("/", authMiddleWare, async (req, res) => {
-  const query = req.query.q;
   const userId = req.user.id;
 
   try {
-    const URL = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
-    const response = await axios.get(URL);
-    const googleResponse = response.data.items;
     const userBooks = await UserBook.findAll({
       where: {
         userId: userId,
       },
-      include: Book,
+      include: {
+        model: Book,
+        attributes: ["categories"],
+      },
     });
 
+    let randomCategory = null;
+    const categories = userBooks.map((book) => {
+      return book.dataValues.book.categories;
+    });
+
+    randomCategory = categories[Math.floor(Math.random() * categories.length)];
+    if (randomCategory === null) {
+      randomCategory = "Education";
+    }
+
+    const URL = `https://www.googleapis.com/books/v1/volumes?q=subject:${randomCategory}`;
+    const response = await axios.get(URL);
+    const googleResponse = response.data.items;
+
     const searchResult = googleResponse.map((googleBook) => {
+      // filter out the books user already have
       const filteredBooks = userBooks.filter((userBook) => {
         if (userBook.book.googleID === googleBook.id) {
           return true;
@@ -31,10 +45,7 @@ router.get("/", authMiddleWare, async (req, res) => {
       });
 
       let categories = null;
-      if (
-        googleBook.volumeInfo.categories !== undefined &&
-        googleBook.volumeInfo.categories.length > 0
-      ) {
+      if (googleBook.volumeInfo.categories.length > 0) {
         categories = googleBook.volumeInfo.categories[0];
       }
 

@@ -9,7 +9,6 @@ router.post("/", authMiddleWare, async (req, res) => {
   const bookGoogleId = req.body.googleID;
   const userId = req.user.id;
   const status = req.body.status;
-  const progress = req.body.progress;
 
   try {
     // search for the book
@@ -24,6 +23,7 @@ router.post("/", authMiddleWare, async (req, res) => {
       // then we'll create the book
       book = await Book.create({
         googleID: req.body.googleID,
+        categories: req.body.categories,
         title: req.body.title,
         author: req.body.authors,
         imageURL: req.body.imageURL,
