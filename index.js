@@ -7,6 +7,7 @@ const authMiddleWare = require("./auth/middleware");
 const bookRouter = require("./routers/books");
 const userBooksRouter = require("./routers/userBooks");
 const searchRouter = require("./routers/search");
+const suggestionsRouter = require("./routers/suggestions");
 const app = express();
 
 /**
@@ -156,6 +157,7 @@ app.use("/", authRouter);
 app.use("/books", bookRouter);
 app.use("/userBooks", userBooksRouter);
 app.use("/search", searchRouter);
+app.use("/suggestions", suggestionsRouter);
 
 // Listen for connections on specified port (default is port 4000)
 
