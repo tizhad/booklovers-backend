@@ -29,6 +29,10 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
+      categories: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
       rate: {
         type: DataTypes.FLOAT,
         allowNull: true,

@@ -14,22 +14,14 @@ router.get("/", authMiddleWare, async (req, res) => {
     const URL = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
     const response = await axios.get(URL);
     const googleResponse = response.data.items;
-    console.log("googleResponse", googleResponse);
-    const googleEnBooks = googleResponse.filter((item) => {
-      if (item.volumeInfo.language == "en") {
-        return true;
-      }
-      return false;
-    });
     const userBooks = await UserBook.findAll({
       where: {
         userId: userId,
       },
       include: Book,
     });
-    console.log(userBooks);
 
-    const searchResult = googleEnBooks.map((googleBook) => {
+    const searchResult = googleResponse.map((googleBook) => {
       const filteredBooks = userBooks.filter((userBook) => {
         if (userBook.book.googleID === googleBook.id) {
           return true;
@@ -41,6 +33,7 @@ router.get("/", authMiddleWare, async (req, res) => {
       if (filteredBooks.length > 0) {
         return {
           googleID: googleBook.id,
+          categories: googleBook.categories,
           title: googleBook.volumeInfo.title,
           authors: googleBook.volumeInfo.hasOwnProperty("authors")
             ? googleBook.volumeInfo.authors.join(", ")
@@ -54,6 +47,7 @@ router.get("/", authMiddleWare, async (req, res) => {
       } else {
         return {
           googleID: googleBook.id,
+          categories: googleBook.categories,
           title: googleBook.volumeInfo.title,
           authors: googleBook.volumeInfo.hasOwnProperty("authors")
             ? googleBook.volumeInfo.authors.join(", ")

@@ -25,6 +25,9 @@ module.exports = {
       imageURL: {
         type: Sequelize.TEXT,
       },
+      categories: {
+        type: Sequelize.STRING,
+      },
       description: {
         type: Sequelize.TEXT,
       },

@@ -23,6 +23,7 @@ router.get("/", authMiddleware, async (req, res) => {
           "rate",
           "imageURL",
           "description",
+          "categories",
         ],
       },
     });

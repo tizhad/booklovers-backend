@@ -12,6 +12,7 @@ module.exports = {
           imageURL:
             "http://books.google.com/books/content?id=g3kFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
           author: "Jeffery D. Smith",
+          categories: "Education",
           description:
             "Operations Anti-Patterns, DevOps Solutions shows how to implement DevOps techniques in the kind of imperfect environments most developers work in.",
           createdAt: new Date(),
@@ -24,6 +25,7 @@ module.exports = {
           imageURL:
             "http://books.google.com/books/content?id=hBSGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
           author: "Oleg Skrynnik",
+          categories: "Business & Economics",
           description:
             "his book explains the management aspects of DevOps for those who are professionally engaged in information and technology management.",
           createdAt: new Date(),
@@ -48,6 +50,7 @@ module.exports = {
           imageURL:
             "http://books.google.com/books/content?id=nO1FDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
           author: "Jennifer Davis Ryn Daniels ",
+          categories: "Business & Economics",
           description:
             "Some companies think that adopting devops means bringing in specialists or a host of new tools.",
           createdAt: new Date(),
