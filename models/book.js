@@ -31,7 +31,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       categories: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
       },
       rate: {
         type: DataTypes.FLOAT,
