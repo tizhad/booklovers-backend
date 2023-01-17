@@ -37,15 +37,14 @@ router.get("/", authMiddleWare, async (req, res) => {
     const searchResult = googleResponse.map((googleBook) => {
       // filter out the books user already have
       const filteredBooks = userBooks.filter((userBook) => {
-        if (userBook.book.googleID === googleBook.id) {
-          return true;
-        } else {
-          return false;
-        }
+        return userBook.book.googleID === googleBook.id;
       });
 
       let categories = null;
-      if (googleBook.volumeInfo.categories.length > 0) {
+      if (
+        googleBook.volumeInfo.categories &&
+        googleBook.volumeInfo.categories.length > 0
+      ) {
         categories = googleBook.volumeInfo.categories[0];
       }
 
