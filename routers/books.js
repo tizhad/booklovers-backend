@@ -12,7 +12,6 @@ router.post("/", authMiddleWare, async (req, res) => {
 
   try {
     // search for the book
-    // used let because I want to change its value later if I don't find the book in the table
     let book = await Book.findOne({
       where: {
         googleID: bookGoogleId,
