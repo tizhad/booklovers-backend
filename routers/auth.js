@@ -21,7 +21,7 @@ router.post("/login", async (req, res, next) => {
 
     if (!user || !bcrypt.compareSync(password, user.password)) {
       return res.status(400).send({
-        message: "User with that email not found or password incorrect",
+        message: "Email or password is incorrect",
       });
     }
 
@@ -58,7 +58,7 @@ router.post("/signup", async (req, res) => {
         .status(400)
         .send({ message: "There is an existing account with this email" });
     }
-    return res.status(400).send({ message: "Something went wrong, sorry" });
+    return res.status(400).send({ message: "Something went wrong , please try again." });
   }
 });
 
