@@ -37,8 +37,7 @@ router.get("/", authMiddleware, async (req, res) => {
     });
     res.status(200).send(response);
   } catch (error) {
-    console.log(error);
-    return res.status(500).send({ message: "SomeThing went wrong" });
+    return res.status(500).send({ });
   }
 });
 
