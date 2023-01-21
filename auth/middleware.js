@@ -39,7 +39,7 @@ async function auth(req, res, next) {
 
       default:
         return res.status(400).send({
-          message: "Something went wrong, sorry"
+          message: "User not founded. Please login to your account."
         });
     }
   }
