@@ -45,14 +45,19 @@ router.post("/", authMiddleWare, async (req, res) => {
         status: status,
       });
     } else {
-      userBook.status = req.body.status;
-      userBook.progress = req.body.progress;
-      await userBook.save();
+      if (req.body.progress == 100) {
+        userBook.status = 'read';
+        userBook.progress = 100;
+        await userBook.save();
+      } else {
+        userBook.progress = req.body.progress;
+        userBook.status = req.body.status;
+        await userBook.save();
+      }
     }
 
     return res.status(201).send(userBook);
   } catch (error) {
-    console.log(error);
     return res.status(500).send({ message: "Some thing went wrong" });
   }
 });
